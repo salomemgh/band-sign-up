@@ -1,0 +1,106 @@
+*{
+    box-sizing: border-box;
+}
+body{
+    margin: 0;
+    padding: 0;
+}
+@font-face {
+    font-family: popins-medium;
+    src: url(Poppins-Medium.ttf);
+}
+@font-face {
+    font-family: popins-semibold;
+    src: url(Poppins-SemiBold.ttf);
+}
+.row{
+    display: flex;
+    align-items: center;
+}
+.p_register{
+    font-weight: 600;
+    font-size: 36px;
+    color: #000000;
+    font-family: popins-semibold;
+}
+.p_get{
+    font-weight: 500;
+    font-size: 24px;
+    color: #000000;
+    font-family: popins-medium;
+}
+.label1{
+    font-weight: 500;
+    font-size: 20px;
+    color: #505050;
+    font-family: popins-medium;
+}
+.input1{
+    width: 420px;
+    border: none;
+    outline: none;
+    background: none;
+    border-bottom: 1px solid #505050;
+}
+
+.button1{
+    font-weight: 600;
+    font-size: 20px;
+    font-family: popins-semibold;
+}
+
+.p_already{
+    font-family: popins-medium;
+}
+.a1{
+    border-bottom: 1px solid #000000;
+}
+
+
+
+.cont2{
+    background-image: url(Rectangle\ 1.png);
+    border-radius: 50px 0px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: relative;
+}
+.box1{
+    backdrop-filter: blur(2px);
+}
+.p_know{
+    font-family: popins-semibold;
+}
+.p_but{
+    font-family: popins-semibold;
+}
+.p_panturas{
+    font-family: popins-medium;
+}
+.circle1{
+    position: absolute;
+    top: 30px;
+    left: 20px;
+}
+.circle2{
+    position: absolute;
+    top: 30px;
+    right: 20px;
+}
+.circle3{
+    position: absolute;
+    bottom: 30px;
+    left: 20px;
+}
+.circle4{
+    position: absolute;
+    bottom: 30px;
+    right: 20px;
+}
+.arrows1{
+    display: flex;
+    gap: 80px;
+    position: absolute;
+    bottom: 20px;
+}
